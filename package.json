@@ -1,0 +1,18 @@
+{
+  "name": "mqtt-qos-aula",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "pub:qos0": "node pubQos0.js",
+    "pub:qos1": "node pubQos1.js",
+    "pub:qos2": "node pubQos2.js",
+    "pub:persistente": "node pubPersistente.js",
+    "sub:qos0": "node subQos0.js",
+    "sub:qos1": "node subQos1.js",
+    "sub:qos2": "node subQos2.js",
+    "sub:persistente": "node subPersistente.js"
+  },
+  "dependencies": {
+    "mqtt": "^5.0.0"
+  }
+}
