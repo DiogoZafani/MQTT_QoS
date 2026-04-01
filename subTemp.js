@@ -5,7 +5,7 @@ const client = mqtt.connect(MQTT_URL);
 
 client.on("connect", () => {
   console.log("SUB QoS0: conectado");
-  client.subscribe("aula/qos", { qos: 0 });
+  client.subscribe("estufa/temp/ambiente", { qos: 0 });
 });
 
 client.on("message", (topic, msg) => {
